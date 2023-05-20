@@ -1,0 +1,8 @@
+{
+  "label": "Chain tracing",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Monitor every single chain and step in your app. With PromptWatch you can see much higher level of details on what is going on. Just drop one line of code.",
+  }
+}

@@ -1,0 +1,72 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: rgb(213, 54, 180);
+  --ifm-color-primary-dark: #ba005a;
+  --ifm-color-primary-darker: #a20087;
+  --ifm-color-primary-darkest: #700058;
+  --ifm-color-primary-light: #ff9538;
+  --ifm-color-primary-lighter: #ffa352;
+  --ifm-color-primary-lightest: #ffc38e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: #6fffb053;
+  /* background:
+      radial-gradient(farthest-side at bottom left,
+          rgba(157, 98, 155, 0.5),
+          transparent 40%),
+      radial-gradient(farthest-corner at bottom right,
+          rgba(225, 141, 141, 0.3),
+          transparent 30%),
+      radial-gradient(at 20% 10%,
+
+          rgb(243 136 40 / 24%),
+          transparent 20%),
+      radial-gradient(farthest-corner at top right,
+          rgba(179 54 179 / 33%),
+          transparent 30%); */
+
+
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #6FFFB0;
+  --ifm-color-primary-dark: #cb17d6;
+  --ifm-color-primary-darker: #cb17d6;
+  --ifm-color-primary-darkest: #cb17d6;
+  --ifm-color-primary-light: #6FFFB0;
+  --ifm-color-primary-lighter: #6FFFB0;
+  --ifm-color-primary-lightest: #6FFFB0;
+  --docusaurus-highlighted-code-line-bg: #6fffb053;
+}
+
+.index-banner{
+    background: linear-gradient(#1a1a1a, #3c413e);
+}
+.index-banner .hero__title {
+    color: #6FFFB0 !important;
+}
+
+.index-banner .button{
+    background:  #cb17d6 ;
+    color:white;  
+
+}
+.index-banner .button:hover{
+    background:  #6FFFB0 ;
+    color:rgb(0, 0, 0);  
+
+}
+
+.index-banner .hero__title,.hero__subtitle{
+    background: linear-gradient(140deg, #6FFFB0 40%, #cb17d6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
